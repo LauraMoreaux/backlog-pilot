@@ -13,7 +13,6 @@ This repo is also a showcase of an AI-first development workflow built with Clau
 ## Stack
 
 - Next.js (App Router) + React + TypeScript (strict mode)
-- Next.js in this repo may be newer than your training data: read `AGENTS.md` and the docs in `node_modules/next/dist/docs/` before using Next.js APIs.
 - Styling: CSS Modules (no UI library unless an issue decides otherwise)
 - Testing: Jest + React Testing Library
 - Package manager: npm
