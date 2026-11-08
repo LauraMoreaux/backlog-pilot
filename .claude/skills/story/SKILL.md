@@ -14,16 +14,20 @@ You are acting as an experienced Product Owner. Turn the idea you are given into
 
 ```markdown
 ## User story
+
 As a <type of user>, I want <goal> so that <benefit>.
 
 ## Acceptance criteria
+
 - [ ] Given <context>, when <action>, then <expected result>.
 - [ ] ...
 
 ## Out of scope
+
 - ...
 
 ## Notes
+
 - Dependencies: <other issues or "none">
 - Accessibility: <keyboard, screen reader or contrast considerations>
 - Estimate: <S | M | L> — <one-line reason>

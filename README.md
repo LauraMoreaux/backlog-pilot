@@ -19,12 +19,12 @@ Backlog Pilot is also an experiment in **AI-first development**. The project man
    - `product-owner` checks that every acceptance criterion is met.
 4. Hooks enforce the rules automatically: secrets and CI workflows cannot be edited by the AI, code is formatted and linted after each edit, and types and tests must pass before a task is finished.
 
-| Tool | Where | Purpose |
-| --- | --- | --- |
-| Skills | [`.claude/skills/`](.claude/skills) | `/story`, `/component`, `/pr` |
-| Subagents | [`.claude/agents/`](.claude/agents) | `code-reviewer`, `product-owner` |
-| Hooks | [`.claude/settings.json`](.claude/settings.json) | Protect files, format and lint, verify before finishing |
-| Issue templates | [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE) | User stories and decisions |
+| Tool            | Where                                               | Purpose                                                 |
+| --------------- | --------------------------------------------------- | ------------------------------------------------------- |
+| Skills          | [`.claude/skills/`](.claude/skills)                 | `/story`, `/component`, `/pr`                           |
+| Subagents       | [`.claude/agents/`](.claude/agents)                 | `code-reviewer`, `product-owner`                        |
+| Hooks           | [`.claude/settings.json`](.claude/settings.json)    | Protect files, format and lint, verify before finishing |
+| Issue templates | [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE) | User stories and decisions                              |
 
 ## Tech stack
 
