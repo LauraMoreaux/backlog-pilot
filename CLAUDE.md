@@ -13,12 +13,11 @@ This repo is also a showcase of an AI-first development workflow built with Clau
 ## Stack
 
 - Next.js (App Router) + React + TypeScript (strict mode)
+- Next.js in this repo may be newer than your training data: read `AGENTS.md` and the docs in `node_modules/next/dist/docs/` before using Next.js APIs.
 - Styling: CSS Modules (no UI library unless an issue decides otherwise)
 - Testing: Jest + React Testing Library
 - Package manager: npm
 - No backend yet: board data lives in `localStorage`. AI features call the Anthropic API from server-side route handlers only.
-
-> The app has not been scaffolded yet. See the issue "Scaffold the Next.js app". Until then, the commands below do not exist.
 
 ## Commands
 
@@ -27,6 +26,7 @@ This repo is also a showcase of an AI-first development workflow built with Clau
 - `npm run typecheck` — `tsc --noEmit`
 - `npm test` — Jest
 - `npm run build` — production build
+- `npm run format` — Prettier (`npm run format:check` to verify only)
 
 ## Conventions
 
