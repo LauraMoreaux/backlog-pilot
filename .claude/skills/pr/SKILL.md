@@ -14,18 +14,23 @@ description: Prepare a pull request for the current branch - Conventional Commit
 
 ```markdown
 ## What
+
 <one or two sentences>
 
 ## Why
+
 <the user or business reason, from the issue>
 
 ## How
+
 - <key implementation points>
 
 ## Testing
+
 - <what was tested and how>
 
 ## Screenshots
+
 <if the UI changed>
 
 Closes #<issue>
